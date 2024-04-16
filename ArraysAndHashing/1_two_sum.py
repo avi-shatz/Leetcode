@@ -1,9 +1,6 @@
 from typing import List
 
 
-# 1. Two Sum
-# Solved
-# Easy
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         num_to_index = {}
@@ -28,6 +25,9 @@ nums = [0, 3, -5, 4, -2, 15, -4]
 result = Solution().twoSum(nums, -7)
 print(result)
 
+# 1. Two Sum
+# Solved
+# Easy
 # Topics
 # Companies
 # Hint
